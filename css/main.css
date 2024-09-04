@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+    user-select: none;
+}
+.prophet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(61, 122, 255);
+    box-shadow: 0 0 15px -5px black;
+}
+.rope {
+    position: absolute;
+    top: 25px; left: 25px;
+    border: 1px dashed black;
+    width: 50px;
+    transform-origin: 0% 50%;
+    display: none;
+}
+.island {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+#island2 {
+    left: 600px;
+    background-color: greenyellow;
+}
+#island3 {
+    top: 600px;
+    background-color: burlywood;
+}
+#island4 {
+    left: 600px;
+    top: 600px;
+    background-color: rgb(24, 186, 124);
+}
+#island-navel {
+    left: 425px;
+    top: 425px;
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+}
